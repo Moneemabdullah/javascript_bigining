@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="space-y-4">
+<div class="second w-80  h-[300px] bg-slate-300 border border-slate-700 rounded-xl py-11 px-5 space-y-4">
+    <h1 class="bg-white text-dark text-xl p-3">2: Num Even/Odd check </h1> 
+        <input type="text" id="num"  placeholder="Enter any number" class="border border-slate-800 rounded pl-3 w-60 h-11" >
+
+        <p id="track"></p>
+
+        <button  onclick="isOddEven()" class="w-20 p-2 bg-cyan-600 text-white rounded-lg ">Submit</button> 
+</div>
+
+<!--  js 4_leap_year.js -->
+<div class="second w-80  h-[300px] bg-slate-300 border border-slate-700 rounded-xl py-11 px-5 space-y-4">
+    <h1 class="bg-white text-dark text-xl p-3">4: Leap year check</h1> 
+        <input type="text" id="leap"  placeholder="Enter Year" class="border border-slate-800 rounded pl-3 w-60 h-11" >
+
+        <p id="leap_show"></p>
+
+        <button  onclick="leap()" class="w-20 p-2 bg-cyan-600 text-white rounded-lg ">Submit</button> 
+</div>
+
+    
+    <script src="2_Odd_or_Even.js"></script> 
+    <script src="4_leap_year.js"></script>
+</body>
+</html>
