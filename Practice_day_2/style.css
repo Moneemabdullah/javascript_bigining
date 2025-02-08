@@ -1,0 +1,46 @@
+/* styles.css */
+
+body {
+  background-color: #375f88;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+#output {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
